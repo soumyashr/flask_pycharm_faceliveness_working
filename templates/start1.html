@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Start monitoring</title>
+    <script src="jquery.js"></script>
+    <script>
+    $(function(){
+      $("#includedContent").load("common.html");
+    });
+    </script>
+
+</head>
+<body>
+<img src="{{url_for('static', filename='Reva-logo-1-1.png')}}" align="middle" />
+
+<p>&nbsp;</p>
+<div id="includedContent"></div>
+
+<div class='container'>
+    <h3>Start Face Liveness Monitoring</h3>
+
+<form action="/faceliveness/" method="post">
+    <button name="Start Monitoring" type="submit">Start Monitoring</button>
+
+</form>
+
+</div>
+
+</body>
+</html>

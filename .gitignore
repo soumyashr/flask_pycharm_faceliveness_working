@@ -1,0 +1,29 @@
+# created by virtualenv automatically
+/.idea/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+
+# C extensions
+
+
+## Distribution / packaging
+
+Lib/
+include/
+
+# Installer logs
+
+## Unit test / coverage reports
+
+# Translations
+
+# Mr Developer
+
+# Rope
+
+# Django stuff:
+
+# Sphinx documentation
+
